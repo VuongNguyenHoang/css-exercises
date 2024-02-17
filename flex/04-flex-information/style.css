@@ -7,10 +7,24 @@ img {
   height: 100px;
 }
 
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  
 }
+.eat {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.eat div{
+  align-items: center;
+  text-align: center;
+}
+
 
 /* do not edit this footer */
 .footer {

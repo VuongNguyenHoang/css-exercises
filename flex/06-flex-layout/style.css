@@ -2,11 +2,42 @@
 
 body {
   height: 100vh;
-  margin: 0;
+  margin: 5px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display:flex;
+  flex-direction: column;
 }
 
+.header{
+  display: flex;
+}
+.right-links{
+  gap:5px;
+  flex: auto;
+  
+  justify-content: end;
+  
+}
+.left-links{
+  gap:5px;
+  flex: auto;
+  padding: 0;
+  justify-content:start;
+  
+}
+.footer{
+  display: flex;
+  
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+}
 img {
   width: 600px;
 }
@@ -24,4 +55,13 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  text-align: center;
 }
